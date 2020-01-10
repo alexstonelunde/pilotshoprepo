@@ -4,4 +4,43 @@
 
 body {
 	margin: 0;
+	padding: 0;
+}
+
+.navbar1 {
+	width: 1200px;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.navbar1leftbox {
+	float: left;
+	width: 50%;
+	overflow: auto;
+
+}
+
+.navbar1rightbox {
+	float: right;
+	width: 50%;
+	overflow: auto;
+}
+
+
+.navbar1leftbox div {
+	height: 50px;
+	width: 100%;
+	background-color: blue;
+
+}
+
+	
+.navbar1rightbox div {
+	height: 50px;
+	width: 16.6666667%;
+	background-color: red;
+	font-size: 10px;
+	float: right;
+
 }
